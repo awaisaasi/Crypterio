@@ -1,4 +1,5 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
+const questionMark = require("tailwindcss-question-mark");
 
 module.exports = {
   mode: "jit",
@@ -14,5 +15,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [questionMark],
 };
