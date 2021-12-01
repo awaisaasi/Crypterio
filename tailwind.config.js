@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        img: "url('https://media.istockphoto.com/vectors/world-map-global-network-connection-technology-futuristic-plexus-vector-id924404340?k=20&m=924404340&s=612x612&w=0&h=c3A7VJCGRyJJXX2jlQx-yLjXkzZLwrCnT11hqCCK5OI=')",
+        awais:
+          "url('https://media.istockphoto.com/vectors/world-map-global-network-connection-technology-futuristic-plexus-vector-id924404340?k=20&m=924404340&s=612x612&w=0&h=c3A7VJCGRyJJXX2jlQx-yLjXkzZLwrCnT11hqCCK5OI=')",
       },
     },
   },
