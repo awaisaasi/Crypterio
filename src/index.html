@@ -16,7 +16,7 @@
     <div>
       <div class="bg-back h-auto bg-cover bg-no-repeat">
         <div class="bg-gray-800 sm:bg-transparent">
-          <header class="flex flex-col my-6 width">
+          <header class="flex flex-col my-6 width px-4">
             <div class="flex justify-between my-10">
               <a class="flex text-white hidden sm:block" href="">
                 <i class="mdi mdi-phone text-green-400 text-white"></i>
@@ -65,7 +65,7 @@
         </div>
         <hr class="text-white hidden sm:block width" />
 
-        <div class="flex my-36 width">
+        <div class="flex my-36 width px-4">
           <aside
             class="
               mdi mdi-clock-outline
@@ -84,8 +84,8 @@
         </div>
 
         <div class="flex flex-col width">
-          <div class="width group">
-            <div class=""><hr class="text-white width" /></div>
+          <div class="group">
+            <div class="px-4"><hr class="text-white width" /></div>
             <div
               class="
                 flex flex-col
@@ -96,8 +96,8 @@
                 gap-x-4
               "
             >
-              <div class="w-1/3 flex flex-col p-10 sm:hover:bg-white">
-                <i class="mdi mdi-cube-scan text-green-400 text-5xl"></i>
+              <div class="flex flex-col w-full sm:w-1/3 p-10 hover:bg-white">
+                <i class="mdi mdi-cube-scan text-green-400 text-7xl"></i>
                 <h1 class="text-white text-2xl font-serif font-bold mt-8 hover">
                   EXPERIENCED
                 </h1>
@@ -108,9 +108,16 @@
               </div>
 
               <div
-                class="w-1/3 flex p-10 flex-col sm:hover:bg-white sm:text-black"
+                class="
+                  flex flex-col
+                  w-full
+                  sm:w-1/3
+                  p-10
+                  hover:bg-white
+                  text-black
+                "
               >
-                <i class="mdi mdi-cube-scan text-green-400 text-5xl"></i>
+                <i class="mdi mdi-cube-scan text-green-400 text-7xl"></i>
                 <h1 class="text-white text-2xl font-serif font-bold mt-8 hover">
                   YOUR PARTNERS
                 </h1>
@@ -124,14 +131,15 @@
               <div
                 class="
                   flex
-                  w-1/3
+                  w-full
+                  sm:w-1/3
                   p-10
                   mt-10
                   flex-col
-                  sm:hover:bg-white sm:text-black
+                  hover:bg-white hover:text-black
                 "
               >
-                <i class="mdi mdi-cube-scan text-green-400 text-5xl"></i>
+                <i class="mdi mdi-cube-scan text-green-400 text-7xl"></i>
                 <h1 class="text-white text-2xl font-serif font-bold mt-8 hover">
                   TECHNICAL PROFICIENT
                 </h1>
@@ -163,12 +171,15 @@
 
         <div
           class="
-            flex
+            flex flex-col
+            sm:flex-row
             bg-green-400
             w-full
             text-white
             py-3
+            mx-4
             justify-center
+            items-center
             gap-x-10
             mb-12
           "
@@ -184,75 +195,104 @@
           </button>
         </div>
 
-        <div class="flex gap-x-8">
+        <div class="flex flex-col sm:flex-row gap-y-8 gap-x-8">
           <div
             class="
               felx
               flex-col
-              w-1/3
+              px-4
+              w-full
+              sm:w-1/3
               bg-gray-100
               sm:hover:shadow-lg
               shadow-2xl
             "
           >
             <img src="images/work_8-350x195.jpeg" alt="" />
-            <div
-              class="flex bg-green-400 w-16 h-[6px] h-2 mt-6 mb-8 rounded-full"
-            ></div>
-            <h1 class="text-xl font-serif font-bold">
-              CONFIDENTIAL TRANSACTIONS
-            </h1>
-            <div class="flex justify-between mt-6">
-              <h1 class="text-green-500 text-xl font-bold">$75</h1>
-              <div class="">
-                <h1 class="font-bold">
-                  Read more
-                  <a class="mdi mdi-greater-than text-green-500" href=""></a>
-                </h1>
+            <div class="flex flex-col p-8">
+              <div
+                class="flex bg-green-400 w-16 h-[6px] mt-6 mb-8 rounded-full"
+              ></div>
+              <h1 class="text-xl font-serif font-bold">
+                CONFIDENTIAL TRANSACTIONS
+              </h1>
+              <div class="flex justify-between mt-6">
+                <h1 class="text-green-500 text-xl font-bold">$75</h1>
+                <div class="">
+                  <h1 class="font-bold hidden sm:block">
+                    Read more
+                    <a class="mdi mdi-greater-than text-green-500" href=""></a>
+                  </h1>
+                </div>
               </div>
             </div>
           </div>
-          <div class="felx flex-col w-1/3 sm:hover:shadow-2xl shadow-lg">
+          <div
+            class="
+              felx
+              flex-col
+              w-full
+              sm:w-1/3
+              px-4
+              sm:hover:shadow-2xl
+              shadow-lg
+            "
+          >
             <img src="images/work_8-350x195.jpeg" alt="" />
-            <div
-              class="
-                flex
-                bg-green-400
-                font-bold font-serif
-                w-16
-                h-[6px] h-2
-                mt-6
-                mb-8
-                rounded-full
-              "
-            ></div>
-            <h1 class="text-xl font-serif font-bold">
-              CONFIDENTIAL TRANSACTIONS
-            </h1>
-            <div class="flex justify-between mt-6">
-              <h1 class="text-green-500 text-xl font-bold">1.25 BTC</h1>
-              <div class="">
-                <h1 class="font-bold">
-                  Read more
-                  <a class="mdi mdi-greater-than text-green-500" href=""></a>
-                </h1>
+            <div class="flex flex-col p-8">
+              <div
+                class="
+                  flex
+                  bg-green-400
+                  font-bold font-serif
+                  w-16
+                  h-[6px]
+                  mt-6
+                  mb-8
+                  rounded-full
+                "
+              ></div>
+              <h1 class="text-xl font-serif font-bold">
+                CONFIDENTIAL TRANSACTIONS
+              </h1>
+              <div class="flex justify-between mt-6">
+                <h1 class="text-green-500 text-xl font-bold">1.25 BTC</h1>
+                <div class="">
+                  <h1 class="font-bold hidden sm:block">
+                    Read more
+                    <a class="mdi mdi-greater-than text-green-500" href=""></a>
+                  </h1>
+                </div>
               </div>
             </div>
           </div>
-          <div class="felx flex-col sm:hover:shadow-2xl w-1/3 shadow-lg">
+          <div
+            class="
+              felx
+              flex-col
+              sm:hover:shadow-2xl
+              w-full
+              px-4
+              sm:w-1/3
+              shadow-lg
+            "
+          >
             <img src="images/work_8-350x195.jpeg" alt="" />
-            <div
-              class="flex bg-green-400 w-16 h-[6px] mt-6 mb-8 rounded-full"
-            ></div>
-            <h1 class="text-xl font-serif font-bold">
-              CONFIDENTIAL TRANSACTIONS
-            </h1>
-            <div class="flex justify-between">
-              <div class="">
-                <h1 class="font-bold">
-                  Read more
-                  <a class="mdi mdi-greater-than text-green-500" href=""></a>
-                </h1>
+
+            <div class="flex flex-col p-8 pb-20">
+              <div
+                class="flex bg-green-400 w-16 h-[6px] mt-6 mb-8 rounded-full"
+              ></div>
+              <h1 class="text-xl font-serif font-bold">
+                CONFIDENTIAL TRANSACTIONS
+              </h1>
+              <div class="flex justify-between">
+                <div class="">
+                  <h1 class="font-bold hidden sm:block">
+                    Read more
+                    <a class="mdi mdi-greater-than text-green-500" href=""></a>
+                  </h1>
+                </div>
               </div>
             </div>
           </div>
@@ -260,38 +300,51 @@
       </div>
 
       <div class="bg-backb bg-cover">
-        <div class="flex flex-col py-20 width">
+        <div class="flex flex-col py-28 px-4 width">
           <div class="flex">
             <i
               class="
                 mdi mdi-check-underline-circle-outline
                 text-7xl text-green-400
+                hidden
+                sm:block
               "
             ></i>
-            <h1 class="text-4xl text-green-400 font-bold font-serif">
+            <h1 class="text-5xl text-green-400 font-bold font-serif">
               SUPPORTING ICOS.
             </h1>
           </div>
 
-          <h1 class="text-4xl font-bold font-serif text-white">
+          <h1 class="text-5xl font-bold font-serif text-white">
             PR AND MARKETING IN FINTECH
           </h1>
 
-          <div class="flex justify-between text-white mt-16">
-            <div class="flex flex-col">
+          <div
+            class="
+              flex flex-col
+              sm:flex-row
+              items-center
+              justify-between
+              text-white
+              mt-16
+              space-y-12
+              sm:space-y-0
+            "
+          >
+            <div class="flex flex-col text-center">
               <h1 class="text-5xl font-bold font-serif">321</h1>
               <p>Cases complete</p>
             </div>
 
-            <div class="flex flex-col">
+            <div class="flex flex-col text-center">
               <h1 class="text-5xl font-bold font-serif">27</h1>
               <p class="font-normal">Consultants</p>
             </div>
-            <div class="flex flex-col">
+            <div class="flex flex-col text-center">
               <h1 class="text-5xl font-bold font-serif">125</h1>
               <p caret=" font-normal ">Award winning</p>
             </div>
-            <div class="flex flex-col">
+            <div class="flex flex-col text-center">
               <h1 class="text-5xl font-bold font-serif">100</h1>
               <p>Satisfied customers</p>
             </div>
@@ -299,11 +352,24 @@
         </div>
       </div>
 
-      <div class="flex flex-col my-20 items-center width">
-        <h1 class="text-4xl font-bold font-serif">FEATURED PROJECTS</h1>
+      <div class="flex flex-col my-20 sm:text-center items-center width">
+        <h1 class="text-4xl font-bold text-center font-serif">
+          FEATURED PROJECTS
+        </h1>
         <div class="flex bg-green-400 w-10 h-2 mt-6 mb-14 rounded-full"></div>
-        <div class="flex gap-x-8">
-          <div class="flex flex-col w-1/3">
+        <div
+          class="
+            flex flex-col
+            items-center
+            justify-center
+            sm:flex-row
+            gap-x-8
+            space-y-12
+            sm:space-y-0
+            px-4
+          "
+        >
+          <div class="flex flex-col w-full sm:w-1/3">
             <img
               class="hover:scale-x-105 hover:scale-y-105"
               src="images/Screen-Shot-2018-04-25-at-5.19.51-PM-350x195.png"
@@ -319,7 +385,7 @@
               <h3 class="text-green-400 font-bold">$100000</h3>
             </div>
           </div>
-          <div class="flex flex-col w-1/3">
+          <div class="flex flex-col w-full sm:w-1/3">
             <img
               class="hover:scale-x-105 hover:scale-y-105"
               src="images/Screen-Shot-2018-04-25-at-5.20.42-PM-350x195.png"
@@ -335,7 +401,7 @@
               <h3 class="text-green-400 font-bold">$6,000,000</h3>
             </div>
           </div>
-          <div class="flex flex-col w-1/3">
+          <div class="flex flex-col w-full sm:w-1/3">
             <img
               class="hover:scale-x-105 hover:scale-y-105"
               src="images/Mainframe-Onyx-copy-350x195.jpg"
@@ -355,7 +421,18 @@
       </div>
 
       <div class="bg-green-400">
-        <div class="flex justify-center items-center h-24 width">
+        <div
+          class="
+            flex flex-col
+            sm:flex-row
+            justify-center
+            items-center
+            h-auto
+            py-4
+            sm:h-24
+            width
+          "
+        >
           <h1 class="text-xl font-serif font-bold w-8/12">
             LOOKING FOR A FIRST-CLASS BUSSINESS CONSULTANTS?
           </h1>
@@ -382,7 +459,9 @@
         <h1 class="text-5xl font-serif font-bold">PRICE TABLE</h1>
         <div class="bg-green-400 w-10 h-2 mt-10 rounded-full"></div>
 
-        <div class="flex items-center justify-center mt-14">
+        <div
+          class="flex flex-col sm:flex-row items-center justify-center mt-14"
+        >
           <div
             class="
               flex flex-col
@@ -558,9 +637,9 @@
         </div>
       </div>
 
-      <div class="bg-backa bg-cover">
-        <div class="width">
-          <h1 class="text-5xl font-serif font-bold py-16 text-white">
+      <div class="bg-backa bg-cover mt-8">
+        <div class="width text-center px-6">
+          <h1 class="text-4xl font-serif font-bold py-16 text-white">
             Do you need support and advise for your ICO Project?
             <span class="text-green-400">
               Box solution for conducting ICOs for 20 BTC
@@ -573,16 +652,20 @@
         <h1 class="text-4xl font-serif font-bold">DREAM TEAM</h1>
         <div class="bg-green-400 w-10 h-2 mt-10 mb-12 rounded-full"></div>
 
-        <div class="flex">
+        <div class="flex flex-col sm:flex-row px-4 sm:px-0">
           <div class="relative group">
-            <div class="flex">
+            <div
+              class="flex flex-col sm:flex-row py-10 text-center items-center"
+            >
               <img
                 class="rounded-full w-28 h-28 object-cover"
                 src="https://cdn.pixabay.com/photo/2019/03/05/11/06/prom-4035992__340.jpg"
                 alt=""
               />
               <div>
-                <h1 class="text-xl font-bold font-serif">JOHN SARLEYSON</h1>
+                <h1 class="text-xl font-bold font-serif py-4">
+                  JOHN SARLEYSON
+                </h1>
                 <p class="text-base opacity-70">
                   Lorem ipsum consectetur adipisicing elit.
                 </p>
@@ -597,11 +680,13 @@
                 text-center
                 w-full
                 h-full
+                px-8
+                py-12
                 opacity-0
                 group-hover:opacity-100
               "
             >
-              <h1 class="text-3xl text-white">CLARK SUNJAY</h1>
+              <h1 class="text-3xl text-white mb-4">CLARK SUNJAY</h1>
               <p class="text-white">
                 He has helped Business WordPress Theme reach new heights and
                 enter new markets. His skills of understanding..
@@ -609,14 +694,16 @@
             </div>
           </div>
           <div class="relative group">
-            <div class="flex">
+            <div
+              class="flex flex-col py-10 items-center text-center sm:flex-row"
+            >
               <img
                 class="rounded-full w-28 h-28 object-cover"
                 src="https://cdn.pixabay.com/photo/2019/03/05/11/06/prom-4035992__340.jpg"
                 alt=""
               />
               <div>
-                <h1 class="text-xl font-serif font-bold">ADAM SMITH</h1>
+                <h1 class="text-xl font-serif font-bold py-4">ADAM SMITH</h1>
                 <p class="text-md opacity-70">
                   Lorem ipsum consectetur adipisicing elit.
                 </p>
@@ -631,6 +718,8 @@
                 text-center
                 w-full
                 h-full
+                px-8
+                py-12
                 opacity-0
                 group-hover:opacity-100
               "
@@ -643,14 +732,16 @@
             </div>
           </div>
           <div class="relative group">
-            <div class="flex">
+            <div
+              class="flex flex-col sm:flex-row py-12 text-center items-center"
+            >
               <img
                 class="rounded-full w-28 h-28 object-cover"
                 src="https://cdn.pixabay.com/photo/2019/03/05/11/06/prom-4035992__340.jpg"
                 alt=""
               />
               <div>
-                <h1 class="text-xl font-serif font-bold">JOHN SARLESON</h1>
+                <h1 class="text-xl font-serif font-bold py-4">JOHN SARLESON</h1>
                 <p class="text-md opacity-70">
                   Lorem ipsum consectetur adipisicing elit.
                 </p>
@@ -665,111 +756,8 @@
                 text-center
                 w-full
                 h-full
-                opacity-0
-                group-hover:opacity-100
-              "
-            >
-              <h1 class="text-3xl text-white">CLARK SUNJAY</h1>
-              <p class="text-white">
-                He has helped Business WordPress Theme reach new heights and
-                enter new markets. His skills of understanding..
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="flex">
-          <div class="relative group">
-            <div class="flex">
-              <img
-                class="rounded-full w-28 h-28 object-cover"
-                src="https://cdn.pixabay.com/photo/2019/03/05/11/06/prom-4035992__340.jpg"
-                alt=""
-              />
-              <div>
-                <h1 class="text-xl font-serif font-bold">JOHN SMITH</h1>
-                <p class="text-md opacity-70">
-                  Lorem ipsum consectetur adipisicing elit.
-                </p>
-              </div>
-            </div>
-            <div
-              class="
-                bg-gray-800
-                absolute
-                top-0
-                left-0
-                text-center
-                w-full
-                h-full
-                opacity-0
-                group-hover:opacity-100
-              "
-            >
-              <h1 class="text-3xl text-white">CLARK SUNJAY</h1>
-              <p class="text-white">
-                He has helped Business WordPress Theme reach new heights and
-                enter new markets. His skills of understanding..
-              </p>
-            </div>
-          </div>
-          <div class="relative group">
-            <div class="flex">
-              <img
-                class="rounded-full w-28 h-28 object-cover"
-                src="https://cdn.pixabay.com/photo/2019/03/05/11/06/prom-4035992__340.jpg"
-                alt=""
-              />
-              <div>
-                <h1 class="text-xl font-serif font-bold">JOHN SARLESON</h1>
-                <p class="text-md opacity-70">
-                  Lorem ipsum consectetur adipisicing elit.
-                </p>
-              </div>
-            </div>
-            <div
-              class="
-                bg-gray-800
-                absolute
-                top-0
-                left-0
-                text-center
-                w-full
-                h-full
-                opacity-0
-                group-hover:opacity-100
-              "
-            >
-              <h1 class="text-3xl text-white">CLARK SUNJAY</h1>
-              <p class="text-white">
-                He has helped Business WordPress Theme reach new heights and
-                enter new markets. His skills of understanding..
-              </p>
-            </div>
-          </div>
-          <div class="relative group">
-            <div class="flex">
-              <img
-                class="rounded-full w-28 h-28 object-cover"
-                src="https://cdn.pixabay.com/photo/2019/03/05/11/06/prom-4035992__340.jpg"
-                alt=""
-              />
-              <div>
-                <h1 class="text-xl font-serif font-bold">JOHN SARLESON</h1>
-                <p class="text-md opacity-70">
-                  Lorem ipsum consectetur adipisicing elit.
-                </p>
-              </div>
-            </div>
-            <div
-              class="
-                bg-gray-800
-                absolute
-                top-0
-                left-0
-                text-center
-                w-full
-                h-full
+                px-8
+                py-12
                 opacity-0
                 group-hover:opacity-100
               "
@@ -783,16 +771,18 @@
           </div>
         </div>
 
-        <div class="flex">
+        <div class="flex flex-col sm:flex-row px-4">
           <div class="relative group">
-            <div class="flex">
+            <div
+              class="flex flex-col sm:flex-row py-12 text-center items-center"
+            >
               <img
                 class="rounded-full w-28 h-28 object-cover"
                 src="https://cdn.pixabay.com/photo/2019/03/05/11/06/prom-4035992__340.jpg"
                 alt=""
               />
               <div>
-                <h1 class="text-xl font-serif font-bold">ANNA KINSON</h1>
+                <h1 class="text-xl font-serif font-bold py-4">JOHN SMITH</h1>
                 <p class="text-md opacity-70">
                   Lorem ipsum consectetur adipisicing elit.
                 </p>
@@ -807,6 +797,8 @@
                 text-center
                 w-full
                 h-full
+                px-8
+                py-12
                 opacity-0
                 group-hover:opacity-100
               "
@@ -819,14 +811,16 @@
             </div>
           </div>
           <div class="relative group">
-            <div class="flex">
+            <div
+              class="flex flex-col sm:flex-row py-12 text-center items-center"
+            >
               <img
                 class="rounded-full w-28 h-28 object-cover"
                 src="https://cdn.pixabay.com/photo/2019/03/05/11/06/prom-4035992__340.jpg"
                 alt=""
               />
               <div>
-                <h1 class="text-xl font-serif font-bold">JOHN SARLESON</h1>
+                <h1 class="text-xl font-serif font-bold py-4">JOHN SARLESON</h1>
                 <p class="text-md opacity-70">
                   Lorem ipsum consectetur adipisicing elit.
                 </p>
@@ -841,6 +835,8 @@
                 text-center
                 w-full
                 h-full
+                px-8
+                py-12
                 opacity-0
                 group-hover:opacity-100
               "
@@ -853,14 +849,16 @@
             </div>
           </div>
           <div class="relative group">
-            <div class="flex">
+            <div
+              class="flex flex-col sm:flex-row py-12 text-center items-center"
+            >
               <img
                 class="rounded-full w-28 h-28 object-cover"
                 src="https://cdn.pixabay.com/photo/2019/03/05/11/06/prom-4035992__340.jpg"
                 alt=""
               />
               <div>
-                <h1 class="text-xl font-serif font-bold">JOHN SARLESON</h1>
+                <h1 class="text-xl font-serif font-bold py-4">JOHN SARLESON</h1>
                 <p class="text-md opacity-70">
                   Lorem ipsum consectetur adipisicing elit.
                 </p>
@@ -875,6 +873,125 @@
                 text-center
                 w-full
                 h-full
+                px-8
+                py-12
+                opacity-0
+                group-hover:opacity-100
+              "
+            >
+              <h1 class="text-3xl text-white">CLARK SUNJAY</h1>
+              <p class="text-white">
+                He has helped Business WordPress Theme reach new heights and
+                enter new markets. His skills of understanding..
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row px-4">
+          <div class="relative group">
+            <div
+              class="flex flex-col sm:flex-row py-12 text-center items-center"
+            >
+              <img
+                class="rounded-full w-28 h-28 object-cover"
+                src="https://cdn.pixabay.com/photo/2019/03/05/11/06/prom-4035992__340.jpg"
+                alt=""
+              />
+              <div>
+                <h1 class="text-xl font-serif font-bold py-4">ANNA KINSON</h1>
+                <p class="text-md opacity-70">
+                  Lorem ipsum consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                bg-gray-800
+                absolute
+                top-0
+                left-0
+                text-center
+                w-full
+                h-full
+                px-8
+                py-12
+                opacity-0
+                group-hover:opacity-100
+              "
+            >
+              <h1 class="text-3xl text-white">CLARK SUNJAY</h1>
+              <p class="text-white">
+                He has helped Business WordPress Theme reach new heights and
+                enter new markets. His skills of understanding..
+              </p>
+            </div>
+          </div>
+          <div class="relative group">
+            <div
+              class="flex flex-col sm:flex-row py-12 text-center items-center"
+            >
+              <img
+                class="rounded-full w-28 h-28 object-cover"
+                src="https://cdn.pixabay.com/photo/2019/03/05/11/06/prom-4035992__340.jpg"
+                alt=""
+              />
+              <div>
+                <h1 class="text-xl font-serif font-bold py-4">JOHN SARLESON</h1>
+                <p class="text-md opacity-70">
+                  Lorem ipsum consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                bg-gray-800
+                absolute
+                top-0
+                left-0
+                text-center
+                w-full
+                h-full
+                px-8
+                py-12
+                opacity-0
+                group-hover:opacity-100
+              "
+            >
+              <h1 class="text-3xl text-white">CLARK SUNJAY</h1>
+              <p class="text-white">
+                He has helped Business WordPress Theme reach new heights and
+                enter new markets. His skills of understanding..
+              </p>
+            </div>
+          </div>
+          <div class="relative group">
+            <div
+              class="flex flex-col sm:flex-row py-12 text-center items-center"
+            >
+              <img
+                class="rounded-full w-28 h-28 object-cover"
+                src="https://cdn.pixabay.com/photo/2019/03/05/11/06/prom-4035992__340.jpg"
+                alt=""
+              />
+              <div>
+                <h1 class="text-xl font-serif font-bold py-4">JOHN SARLESON</h1>
+                <p class="text-md opacity-70">
+                  Lorem ipsum consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                bg-gray-800
+                absolute
+                top-0
+                left-0
+                text-center
+                w-full
+                h-full
+                px-8
+                py-12
                 opacity-0
                 group-hover:opacity-100
               "
@@ -889,12 +1006,21 @@
         </div>
       </div>
 
-      <div class="flex flex-col justify-center items-center my-36 width">
+      <div
+        class="
+          flex flex-col
+          justify-center
+          items-center
+          text-center
+          my-36
+          width
+        "
+      >
         <h1 class="text-4xl font-bold font-serif">ICO LEGAL CONSULTANTS</h1>
         <div class="bg-green-400 w-10 h-2 mt-8 mb-20 rounded-full"></div>
-        <div class="flex space-x-8">
-          <div class="relative w-1/3 group">
-            <div class="flex">
+        <div class="flex flex-col sm:flex-row space-x-8">
+          <div class="relative group w-full sm:w-1/3">
+            <div class="flex flex-col items-center sm:flex-row">
               <img
                 class="rounded-full w-28 h-28 object-cover"
                 src="https://cdn.pixabay.com/photo/2019/03/05/11/06/prom-4035992__340.jpg"
@@ -927,8 +1053,8 @@
               </p>
             </div>
           </div>
-          <div class="relative w-1/3 group">
-            <div class="flex">
+          <div class="relative group w-full sm:w-1/3">
+            <div class="flex flex-col sm:flex-row items-center">
               <img
                 class="rounded-full w-28 h-28 object-cover"
                 src="https://cdn.pixabay.com/photo/2019/03/05/11/06/prom-4035992__340.jpg"
@@ -961,8 +1087,8 @@
               </p>
             </div>
           </div>
-          <div class="relative w-1/3 group">
-            <div class="flex">
+          <div class="relative group w-full sm:w-1/3">
+            <div class="flex flex-col sm:flex-row items-center">
               <img
                 class="rounded-full w-28 h-28 object-cover"
                 src="https://cdn.pixabay.com/photo/2019/03/05/11/06/prom-4035992__340.jpg"

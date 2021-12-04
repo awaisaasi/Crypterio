@@ -13,5 +13,5 @@ body {
 }
 
 .hover {
-  @apply sm:group-hover:text-black;
+  @apply group-hover:text-black;
 }
