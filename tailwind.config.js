@@ -15,6 +15,8 @@ module.exports = {
           "url(https://images.pexels.com/photos/7599718/pexels-photo-7599718.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)",
         backc:
           "url(https://cdn.pixabay.com/photo/2016/11/21/18/17/abstract-1846974_1280.jpg)",
+        backd:
+          "url(https://crypterio.stylemixthemes.com/icoagency/wp-content/uploads/sites/12/2018/04/map-1.jpg?id=3837)",
       },
     },
   },
