@@ -18,12 +18,13 @@
         <div class="bg-gray-800 sm:bg-transparent">
           <header class="flex flex-col my-6 width px-4">
             <div class="flex justify-between my-10">
-              <a class="flex text-white hidden sm:block" href="">
-                <i class="mdi mdi-phone text-green-400 text-white"></i>
-                <div class="flex flex-col">
+              <a class="flex flex-col text-white hidden sm:block" href="">
+                <div class="flex">
+                  <i class="mdi mdi-phone text-green-400 mr-2 text-white"></i>
                   <h1 class="font-bold">212 386 5575</h1>
-                  <p class="text-sm">Free call</p>
                 </div>
+
+                <p class="text-sm ml-6">Free call</p>
               </a>
               <div class="flex flex-col text-white">
                 <img src="./images/logo_default.svg" alt="" />
@@ -84,19 +85,21 @@
         </div>
 
         <div class="flex flex-col width">
-          <div class="group">
+          <div class="">
             <div class="px-4"><hr class="text-white width" /></div>
             <div
               class="
                 flex flex-col
-                sm:flex-row
+                md:flex-row
                 space-y-12
-                sm:space-y-0
+                md:space-y-0
                 py-20
                 gap-x-4
               "
             >
-              <div class="flex flex-col w-full sm:w-1/3 p-10 hover:bg-white">
+              <div
+                class="group flex flex-col w-full md:w-1/3 p-10 hover:bg-white"
+              >
                 <i class="mdi mdi-cube-scan text-green-400 text-7xl"></i>
                 <h1 class="text-white text-2xl font-serif font-bold mt-8 hover">
                   EXPERIENCED
@@ -109,12 +112,12 @@
 
               <div
                 class="
+                  group
                   flex flex-col
                   w-full
-                  sm:w-1/3
+                  md:w-1/3
                   p-10
-                  hover:bg-white
-                  text-black
+                  hover:bg-white hover:text-black
                 "
               >
                 <i class="mdi mdi-cube-scan text-green-400 text-7xl"></i>
@@ -130,9 +133,10 @@
 
               <div
                 class="
+                  group
                   flex
                   w-full
-                  sm:w-1/3
+                  md:w-1/3
                   p-10
                   mt-10
                   flex-col
@@ -154,6 +158,7 @@
         </div>
       </div>
 
+      <!-- What we offer -->
       <div
         class="
           flex flex-col
@@ -202,7 +207,6 @@
               flex-col
               px-4
               w-full
-              sm:w-1/3
               bg-gray-100
               sm:hover:shadow-lg
               shadow-2xl
@@ -227,17 +231,7 @@
               </div>
             </div>
           </div>
-          <div
-            class="
-              felx
-              flex-col
-              w-full
-              sm:w-1/3
-              px-4
-              sm:hover:shadow-2xl
-              shadow-lg
-            "
-          >
+          <div class="felx flex-col w-full px-4 sm:hover:shadow-2xl shadow-lg">
             <img src="images/work_8-350x195.jpeg" alt="" />
             <div class="flex flex-col p-8">
               <div
@@ -266,17 +260,7 @@
               </div>
             </div>
           </div>
-          <div
-            class="
-              felx
-              flex-col
-              sm:hover:shadow-2xl
-              w-full
-              px-4
-              sm:w-1/3
-              shadow-lg
-            "
-          >
+          <div class="felx flex-col sm:hover:shadow-2xl w-full px-4 shadow-lg">
             <img src="images/work_8-350x195.jpeg" alt="" />
 
             <div class="flex flex-col p-8 pb-20">
@@ -286,7 +270,7 @@
               <h1 class="text-xl font-serif font-bold">
                 CONFIDENTIAL TRANSACTIONS
               </h1>
-              <div class="flex justify-between">
+              <div class="flex justify-between mt-6">
                 <div class="">
                   <h1 class="font-bold hidden sm:block">
                     Read more
@@ -298,14 +282,16 @@
           </div>
         </div>
       </div>
+      <!--End What we offer -->
 
       <div class="bg-backb bg-cover">
         <div class="flex flex-col py-28 px-4 width">
-          <div class="flex">
+          <div class="flex items-center mb-2">
             <i
               class="
                 mdi mdi-check-underline-circle-outline
                 text-7xl text-green-400
+                pr-2
                 hidden
                 sm:block
               "
@@ -352,6 +338,7 @@
         </div>
       </div>
 
+      <!-- Feature project -->
       <div class="flex flex-col my-20 sm:text-center items-center width">
         <h1 class="text-4xl font-bold text-center font-serif">
           FEATURED PROJECTS
@@ -360,9 +347,11 @@
         <div
           class="
             flex flex-col
-            items-center
-            justify-center
             sm:flex-row
+            md:flex-row
+            items-center
+            sm:items-start
+            justify-center
             gap-x-8
             space-y-12
             sm:space-y-0
@@ -380,9 +369,9 @@
               Havven is a decentralised payment network and stablecoin. It
               allows anyone to transact using a stable cryptocurrency.
             </p>
-            <div class="flex">
-              <h3 class="font-semibold opacity-80 mr-6">Collected</h3>
-              <h3 class="text-green-400 font-bold">$100000</h3>
+            <div class="flex justify-between mt-4">
+              <h3 class="font-semibold opacity-80 ml-2">Collected</h3>
+              <h3 class="text-green-400 font-bold px-4">$100000</h3>
             </div>
           </div>
           <div class="flex flex-col w-full sm:w-1/3">
@@ -396,9 +385,9 @@
               Havven is a decentralised payment network and stablecoin. It
               allows anyone to transact using a stable cryptocurrency.
             </p>
-            <div class="flex">
-              <h3 class="font-semibold opacity-80 mr-6">Collected</h3>
-              <h3 class="text-green-400 font-bold">$6,000,000</h3>
+            <div class="flex justify-between mt-4">
+              <h3 class="font-semibold opacity-80 ml-2">Collected</h3>
+              <h3 class="text-green-400 font-bold px-4">$6,000,000</h3>
             </div>
           </div>
           <div class="flex flex-col w-full sm:w-1/3">
@@ -412,13 +401,14 @@
               Havven is a decentralised payment network and stablecoin. It
               allows anyone to transact using a stable cryptocurrency.
             </p>
-            <div class="flex">
-              <h3 class="font-semibold opacity-80 mr-6">Collected</h3>
-              <h3 class="text-green-400 font-bold">$52,000,000</h3>
+            <div class="flex justify-between mt-4">
+              <h3 class="font-semibold opacity-80 ml-2">Collected</h3>
+              <h3 class="text-green-400 font-bold px-4">$52,000,000</h3>
             </div>
           </div>
         </div>
       </div>
+      <!--End Feature project -->
 
       <div class="bg-green-400">
         <div
@@ -450,11 +440,13 @@
               w-40
             "
           >
-            GET QUOTE <i class="mdi mdi-greater-than text-green-400"></i>
+            GET QUOTE
+            <i class="mdi mdi-greater-than text-green-400"></i>
           </button>
         </div>
       </div>
 
+      <!-- Price table -->
       <div class="flex flex-col mt-40 items-center justify-center px-4 width">
         <h1 class="text-5xl font-serif font-bold">PRICE TABLE</h1>
         <div class="bg-green-400 w-10 h-2 mt-10 rounded-full"></div>
@@ -636,6 +628,7 @@
           </div>
         </div>
       </div>
+      <!--End Price table -->
 
       <div class="bg-backa bg-cover mt-8">
         <div class="width text-center px-6">
@@ -648,11 +641,20 @@
         </div>
       </div>
 
+      <!-- Dream Team -->
       <div class="flex flex-col items-center mt-32 space-y-16 px-4 width">
         <h1 class="text-4xl font-serif font-bold">DREAM TEAM</h1>
         <div class="bg-green-400 w-10 h-2 mt-10 mb-12 rounded-full"></div>
 
-        <div class="flex flex-col sm:flex-row justify-center items-center">
+        <div
+          class="
+            flex flex-col
+            sm:flex-row
+            md:flex-row
+            justify-center
+            items-center
+          "
+        >
           <div class="relative group">
             <div
               class="flex flex-col sm:flex-row py-10 text-center items-center"
@@ -664,7 +666,7 @@
               />
               <div class="sm:text-left ml-4">
                 <h1 class="text-xl font-bold font-serif py-4">
-                  JOHN SARLEYSON
+                  JOHN SARLEYSON 1
                 </h1>
                 <p class="text-base opacity-70">
                   Lorem ipsum consectetur adipisicing elit.
@@ -774,7 +776,15 @@
           class="bg-black w-40 h-[1px] mt-10 mb-12 sm:hidden rounded-full"
         ></div>
 
-        <div class="flex flex-col sm:flex-row justify-center items-center">
+        <div
+          class="
+            flex flex-col
+            sm:flex-row
+            md:flex-row
+            justify-between
+            items-center
+          "
+        >
           <div class="relative group">
             <div
               class="flex flex-col sm:flex-row py-12 text-center items-center"
@@ -894,7 +904,15 @@
           class="bg-black w-40 h-[1px] mt-10 mb-12 sm:hidden rounded-full"
         ></div>
 
-        <div class="flex flex-col sm:flex-row justify-center items-center">
+        <div
+          class="
+            flex flex-col
+            sm:flex-row
+            md:flex-row
+            justify-center
+            items-center
+          "
+        >
           <div class="relative group">
             <div
               class="flex flex-col sm:flex-row py-12 text-center items-center"
@@ -1014,7 +1032,9 @@
           class="bg-black w-40 h-[1px] mt-10 mb-12 sm:hidden rounded-full"
         ></div>
       </div>
+      <!--End Dream Team -->
 
+      <!-- ICO Legal -->
       <div
         class="
           flex flex-col
@@ -1022,6 +1042,7 @@
           items-center
           text-center
           my-36
+          px-4
           width
         "
       >
@@ -1054,6 +1075,7 @@
                 w-full
                 h-full
                 py-12
+                px-2
                 opacity-0
                 group-hover:opacity-100
               "
@@ -1091,6 +1113,7 @@
                 w-full
                 h-full
                 py-12
+                px-2
                 opacity-0
                 group-hover:opacity-100
               "
@@ -1126,6 +1149,7 @@
                 w-full
                 h-full
                 py-12
+                px-2
                 opacity-0
                 group-hover:opacity-100
               "
@@ -1139,8 +1163,9 @@
           </div>
         </div>
       </div>
+      <!--End ICO Legal -->
 
-      <div class="flex justify-center bg-backd w-full h-[700px] mb-8">
+      <div class="flex justify-center bg-backd w-full h-[700px]">
         <div class="flex flex-col text-center items-center pt-14">
           <h1 class="text-4xl font-serif font-bold">
             Markets where We operate
@@ -1149,19 +1174,21 @@
         </div>
       </div>
 
+      <!-- Contact Form -->
       <div class="bg-backc bg-cover">
         <div
           class="
             flex flex-col
-            sm:flex-row
-            mb-16
-            space-x-8
+            md:flex-row
+            py-32
+            px-2
+            sm:space-x-8
             justify-center
             items-center
             width
           "
         >
-          <div class="flex flex-col text-white my-20 w-full px-4">
+          <div class="flex flex-col text-white w-full px-4">
             <h1 class="font-serif font-bold text-3xl mb-5">
               request a call back.
             </h1>
@@ -1193,7 +1220,7 @@
               value="phone number"
             />
           </div>
-          <div class="flex flex-col px-4 w-full">
+          <div class="flex flex-col px-4 mt-4 w-full">
             <input
               class="bg-white text-sm rounded-md mt-6 py-4 w-80 pl-5"
               type="text"
@@ -1217,24 +1244,38 @@
           </div>
         </div>
       </div>
+      <!--End Contact Form -->
 
-      <div class="flex justify-between width">
+      <!-- Crypto list -->
+      <div
+        class="
+          flex flex-col
+          md:flex-row
+          space-y-4
+          justify-between
+          items-center
+          width
+          my-16
+        "
+      >
         <h1 class="text-lg font-bold">Crypto Speaker</h1>
         <h1 class="font-bold text-lg">The Crypto Currency</h1>
-        <div class="flex flex-col items-center">
-          <h1 class="font-semibold text-lg">Blockchain</h1>
-          <div class="flex">
-            <div class="bg-black w-6 h-[1px]"></div>
-            <p class="text-xs">professionals</p>
-            <div class="bg-black w-6 h-[1px]"></div>
+        <div class="flex items-center">
+          <div class="bg-black w-6 h-[1px] mt-3"></div>
+          <div class="flex flex-col items-center">
+            <h1 class="font-semibold text-lg">Blockchain</h1>
+            <p class="text-xs -mt-2">professionals</p>
           </div>
+          <div class="bg-black w-6 h-[1px] mt-3"></div>
         </div>
         <h1 class="font-semibold text-lg">Coin TEndencia</h1>
         <div class="flex flex-col">
           <h1 class="font-bold text-xl font-sans">BTC Experts</h1>
-          <p></p>
         </div>
       </div>
+      <!--End Crypto list -->
+
+      <!-- Footer -->
       <div class="bg-gray-900">
         <div class="flex flex-col mt-10 py-12 width">
           <div
@@ -1267,7 +1308,7 @@
                 </p>
               </div>
             </div>
-            <div class="flex flex-col text-white w-full sm:w-1/4">
+            <div class="flex flex-col text-white w-full pb-4 sm:w-1/4">
               <h1 class="font-bold font-serif text-2xl">Recent News</h1>
               <hr class="text-white mr-4 mt-4 mb-8" />
               <h2 class="font-serif">The Etherium Platform</h2>
@@ -1295,7 +1336,7 @@
                 </ul>
               </div>
             </div>
-            <div class="w-full sm:w-1/4">
+            <div class="w-full pt-2 sm:w-1/4">
               <h1 class="font-bold font-serif mb-4 text-2xl text-white">
                 SUBCRIBE
               </h1>
@@ -1305,7 +1346,8 @@
                   pl-3
                   py-3
                   mb-2
-                  w-80
+                  w-full
+                  text-white
                   ring-2 ring-white
                   opacity-50
                   bg-transparent
@@ -1313,7 +1355,18 @@
                 type="text"
                 placeholder="Enter Your Email"
               />
-              <button class="bg-green-400 rounded-md text-white w-80 py-3 mt-2">
+              <button
+                class="
+                  bg-green-400
+                  hover:bg-transparent
+                  rounded-md
+                  border border-white
+                  text-white
+                  w-full
+                  py-3
+                  mt-2
+                "
+              >
                 Subrcibes
               </button>
               <p class="text-xs text-white bg-transparent mt-10">
@@ -1331,6 +1384,7 @@
           </div>
         </div>
       </div>
+      <!--End Footer -->
     </div>
 
     <script src="./main.js" type="module"></script>
